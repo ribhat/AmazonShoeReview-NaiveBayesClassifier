@@ -8,6 +8,4 @@ In order to gather the data, I went to a product page on Amazon, scrolled down t
 my own discretion. From here, we were able to create the total bag of words. Now that the data is stored (either in a .txt or .csv), it has to be read into a data frame, using the panda’s library. We want to ensure that the formatting of the strings is similar, since, for example, we don’t want our classifier to think ‘hate’ and ‘Hate’ are two separate words. Once the bag of words is created, the data must be split into training and test. Originally, we will use a 50-50 split and later compare the results to repeating the process with an 80-20 split. First, we must create our training/testing dataset and calculate prior probabilities and conditional independence for each feature in our bag of words. The probability of positive and negative are compared and the larger value is chosen as the classification.
 
 
-This project was originally completed on Jupyter Notebooks using python and is available to download from the master branch. There is also a .py file with the same contents
-
-
+This project was originally completed on Jupyter Notebooks using python and is available to download from the master branch. For convenience I have also included a replicated .py file, however the Jupyter Notebook provides a much more explicit breakdown of the steps in building the classifier and testing it on the data. The Jupyter Notebook is also available in a pdf version for easier viewing.
